@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2022 FIFA World Cup: Ultimate Blog & Messi Gallery</title>
+  <meta name="description" content="All fixtures, stats, and Messi moments from Qatar 2022. Interactive, visual, and classroom-ready.">
+  <!-- Open Graph & Twitter Cards -->
+  <meta property="og:title" content="2022 FIFA World Cup: Ultimate Blog & Messi Gallery" />
+  <meta property="og:description" content="All fixtures, stats, and Messi moments from Qatar 2022. Interactive, visual, and classroom-ready." />
+  <meta property="og:image" content="images/messi-hero-1200.jpg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="2022 FIFA World Cup: Ultimate Blog & Messi Gallery" />
+  <meta name="twitter:description" content="All fixtures, stats, and Messi moments from Qatar 2022. Interactive, visual, and classroom-ready." />
+  <meta name="twitter:image" content="images/messi-hero-1200.jpg" />
+  <link rel="stylesheet" href="styles.css">
+  <!-- Sortable.js for interactive tables -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.css" />
+</head>
+<body>
+  <!-- Parallax Hero Section -->
+  <section class="parallax-hero">
+    <picture>
+      <source srcset="images/messi-hero-1200.webp" type="image/webp">
+      <img src="images/messi-hero-1200.jpg" alt="Lionel Messi lifting the World Cup trophy" class="hero-bg">
+    </picture>
+    <div class="hero-content">
+      <h1>2022 FIFA World Cup: The Ultimate Blog</h1>
+      <p>All the drama, stats, and Messi magic from Qatar 2022. Explore fixtures, top scorers, award winners, and more in a stunning, interactive experience.</p>
+    </div>
+  </section>
+
+  <!-- Blog Summary Section -->
+  <section id="blog-summary" class="content-section">
+    <h2>Tournament Summary</h2>
+    <div class="card hover-card">
+      <p>
+        The 2022 FIFA World Cup in Qatar was a tournament of firsts: the first in the Arab world, the most goals ever scored, and a final for the ages. Argentina, led by Lionel Messi, triumphed over France in a dramatic penalty shootout, while Morocco made history as the first African and Arab semi-finalist. Explore every twist and turn of this unforgettable tournament below.
+      </p>
+      <span class="card-credit">Based on official FIFA and Olympics.com reports.</span>
+    </div>
+  </section>
+
+  <!-- Fixtures Section -->
+  <section id="fixtures" class="content-section">
+    <h2>Fixtures & Results</h2>
+    <div class="table-container">
+      <table class="sortable" id="fixtures-table">
+        <thead>
+          <tr>
+            <th>Stage</th>
+            <th>Date</th>
+            <th>Match</th>
+            <th>Score</th>
+            <th>Venue</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Sample rows; full data should be loaded via JS or static HTML -->
+          <tr>
+            <td>Group A</td>
+            <td>20 Nov</td>
+            <td>Qatar vs. Ecuador</td>
+            <td>0-2</td>
+            <td>Al Bayt Stadium</td>
+          </tr>
+          <tr>
+            <td>Group C</td>
+            <td>22 Nov</td>
+            <td>Argentina vs. Saudi Arabia</td>
+            <td>1-2</td>
+            <td>Lusail Stadium</td>
+          </tr>
+          <tr>
+            <td>Final</td>
+            <td>18 Dec</td>
+            <td>Argentina vs. France</td>
+            <td>3-3 (4-2 pens)</td>
+            <td>Lusail Stadium</td>
+          </tr>
+          <!-- More rows... -->
+        </tbody>
+      </table>
+      <span class="table-credit">Data: FIFA.com, Olympics.com, FixtureDownload.com</span>
+    </div>
+  </section>
+
+  <!-- Top Scorers Section -->
+  <section id="top-scorers" class="content-section">
+    <h2>Top Scorers</h2>
+    <div class="table-container">
+      <table class="sortable" id="scorers-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th>Goals</th>
+            <th>Assists</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Kylian Mbappé</td>
+            <td>France</td>
+            <td>8</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Lionel Messi</td>
+            <td>Argentina</td>
+            <td>7</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Julián Álvarez</td>
+            <td>Argentina</td>
+            <td>4</td>
+            <td>0</td>
+          </tr>
+          <!-- More rows... -->
+        </tbody>
+      </table>
+      <span class="table-credit">Data: FIFA.com, WorldFootball.net</span>
+    </div>
+  </section>
+
+  <!-- Award Winners Section -->
+  <section id="awards" class="content-section">
+    <h2>Award Winners</h2>
+    <div class="awards-grid">
+      <div class="award-card hover-card">
+        <img src="images/messi-golden-ball.jpg" alt="Lionel Messi with Golden Ball" />
+        <h3>Golden Ball</h3>
+        <p>Lionel Messi (Argentina)</p>
+        <span class="card-credit">Getty Images/FIFA</span>
+      </div>
+      <div class="award-card hover-card">
+        <img src="images/mbappe-golden-boot.jpg" alt="Kylian Mbappé with Golden Boot" />
+        <h3>Golden Boot</h3>
+        <p>Kylian Mbappé (France)</p>
+        <span class="card-credit">Getty Images/FIFA</span>
+      </div>
+      <div class="award-card hover-card">
+        <img src="images/martinez-golden-glove.jpg" alt="Emiliano Martínez with Golden Glove" />
+        <h3>Golden Glove</h3>
+        <p>Emiliano Martínez (Argentina)</p>
+        <span class="card-credit">Getty Images/FIFA</span>
+      </div>
+      <div class="award-card hover-card">
+        <img src="images/enzo-young-player.jpg" alt="Enzo Fernández with Young Player Award" />
+        <h3>Young Player</h3>
+        <p>Enzo Fernández (Argentina)</p>
+        <span class="card-credit">Getty Images/FIFA</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Messi Gallery Section -->
+  <section id="messi-gallery" class="content-section">
+    <h2>Messi: The Legend of Qatar 2022</h2>
+    <div class="gallery-grid">
+      <div class="gallery-card hover-card">
+        <img src="images/messi-action-1.jpg" alt="Messi dribbling past defenders" />
+        <p>Messi’s dazzling run against Croatia in the semi-final.</p>
+        <span class="card-credit">Hector Vivas – FIFA/FIFA via Getty Images</span>
+      </div>
+      <div class="gallery-card hover-card">
+        <img src="images/messi-celebration.jpg" alt="Messi celebrating a goal" />
+        <p>Messi celebrates after scoring in the final.</p>
+        <span class="card-credit">Getty Images/FIFA</span>
+      </div>
+      <div class="gallery-card hover-card">
+        <img src="images/messi-trophy.jpg" alt="Messi lifting the World Cup trophy" />
+        <p>The moment of glory: Messi lifts the World Cup.</p>
+        <span class="card-credit">Getty Images/FIFA</span>
+      </div>
+      <!-- More images... -->
+    </div>
+  </section>
+
+  <!-- Official Stats Section -->
+  <section id="official-stats" class="content-section">
+    <h2>Official Tournament Stats</h2>
+    <div class="stats-cards">
+      <div class="stat-card">
+        <h3>172</h3>
+        <p>Goals Scored (Record)</p>
+      </div>
+      <div class="stat-card">
+        <h3>3.4M</h3>
+        <p>Attendance</p>
+      </div>
+      <div class="stat-card">
+        <h3>5B</h3>
+        <p>Global Audience</p>
+      </div>
+      <div class="stat-card">
+        <h3>20,000</h3>
+        <p>Volunteers</p>
+      </div>
+      <div class="stat-card">
+        <h3>1.8M</h3>
+        <p>Fan Festival Visitors</p>
+      </div>
+    </div>
+    <span class="card-credit">Source: FIFA Annual Report 2022</span>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      Website for educational and classroom use. All images © FIFA, Getty Images, Olympics.com. Credits as indicated. Data from official FIFA and Olympics.com sources.
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
